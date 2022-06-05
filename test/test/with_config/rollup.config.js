@@ -3,7 +3,7 @@ import json from '@rollup/plugin-json'
 import path from 'path'
 
 export default {
-  input: 'src/index.ts',
+  input: 'index.ts',
   output: [
     { file: 'dist/index.cjs.js', format: 'cjs' },
     { file: 'dist/index.es.js', format: 'esm' },
