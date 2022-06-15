@@ -1,6 +1,6 @@
 {
   "name": "rollup-hot-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "http server for rollup",
   "author": "kitsong",
   "license": "MIT",
@@ -22,13 +22,11 @@
     "url": "https://github.com/kitsong/rollup-hot-server/issues"
   },
   "files": [
-    "lib",
     "bin"
   ],
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c ",
-    "test:cli": "",
     "test": "jest"
   },
   "homepage": "https://github.com/kitsong/rollup-hot-server#readme",
@@ -39,6 +37,7 @@
     "jest": "^28.1.0",
     "mime": "^3.0.0",
     "rollup": "^2.72.1",
+    "rollup-plugin-terser": "^7.0.2",
     "selfsigned": "^2.0.1",
     "yargs-parser": "^21.0.1"
   },
